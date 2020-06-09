@@ -44,12 +44,12 @@ h2 {
 .row {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
 }
 
 .col {
   background: lightblue;
   border: dashed; color: navy;
+  margin: 25px 25px;
   padding: 25px
   
 }
