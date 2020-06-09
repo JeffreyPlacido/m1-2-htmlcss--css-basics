@@ -18,24 +18,42 @@ li {
 
 /* ADD CSS BELOW */
 
-body {
+body { 
+  margin: 30px;
 }
 
 h1,
 h2 {
+  font-family: BANGERS;
 }
 
 h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: BANGERS;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
 }
 
 .row {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .col {
+  background: lightblue;
+  border: dashed; color: navy;
+  padding: 25px
+  
 }
-
+/* could not find the exact color for lines 51-52 so i went with something i liked better */
 .image {
+  height: 300px;
 }
