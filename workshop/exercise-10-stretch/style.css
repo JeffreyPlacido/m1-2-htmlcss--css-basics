@@ -3,5 +3,8 @@ body {
 }
 
 button {
-  /* Solve me */
+  color: blue;
+
+transform: scale(10px);
+transition: ease-in-out;
 }
