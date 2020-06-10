@@ -3,8 +3,18 @@ body {
 }
 
 button {
-  color: blue;
+  color: white;
+  background: blue;
+  transition: transform 3s;
+  padding:  20px 30px;
+  border: 0px;
+  border radius: 15px;
+}
 
-transform: scale(10px);
-transition: ease-in-out;
+button:active {
+  transform: scale(0.8);
+}
+
+button:focus {
+  background: darkblue;
 }
